@@ -416,7 +416,7 @@ public class Repository(AppDbContext context) : IRepository
    dotnet add reference ..\TodoApp.Infra\
 ```
 
-### CONFIGURAÇÃO O BUILDER
+### CONFIGURAÇÃO DO BUILDER
 
 1. Agora é necessário informar quais configurações adicionais queremos que sejam carregadas com a aplicação.
    Para ficar mais organizado, crie um método de extensão do Builder.
