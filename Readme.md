@@ -1,9 +1,16 @@
 # Todo NET8 v1 - Minimal API de lista de tarefas
 
-Esse projeto tem como finalidade servir de base para organização de projetos.
+Esse projeto tem como finalidade servir de base para organização de futuros projetos.
 
 Como há muitos conceitos e regras, se faz necessário uma ordem lógica para facilitar
 o uso das melhores práticas ao aplicar padrões de projeto e código limpo.
+
+Vou seguir essa ordem:
+
+- **ProjetoNome**
+  - `ProjetoApp.Api`
+  - `ProjetoApp.Core`
+  - `ProjetoApp.Infra`
 
 1. Crie a estrutura de arquivos separando por contextos.
 
@@ -572,3 +579,5 @@ app.Run();
 Abaixo exemplo de falha, gerando uma notificação.
 
 ![Tarefa com apenas 2 caracteres](Doc/endpoint-test-notification.png)
+
+### Bom é isso por enquanto. Então, boa sorte e bons códigos. 👍
